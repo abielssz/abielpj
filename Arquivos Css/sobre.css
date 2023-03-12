@@ -1,0 +1,109 @@
+body{ margin: 0;
+    background-color: rgb(0, 0, 0);}
+
+    *{
+        box-sizing: border-box;
+    }
+    header{
+
+        box-shadow: 0px 5px 20px rgb(155, 155, 155);
+        width: 100%;
+        height: 110px;
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;}
+        
+    .menu { 
+            
+            font-family: Verdana;
+            list-style: none;
+            font-size: 15px;
+            flex-wrap: wrap;
+            display: flex;
+            margin-right: 40px;
+            margin: 5px;
+            justify-content:space-around;
+        }
+        .menu li a{
+ 
+            padding: 10px 20px 10px 20px;
+            color: rgb(255, 255, 255);
+            display: block;
+            text-decoration: none;
+            margin-left: 10px;
+            border-radius: 10%;
+        }
+        
+        .menu li a:hover{
+            background-color:#ccc;
+            color: rgb(0, 0, 0);
+            display: block;
+            text-decoration: none;}
+.logo{
+    background-repeat: no-repeat;
+    margin-left: 20px;
+    background-image:url(slogan00_resized.png);    
+    border-radius:1px;
+    width: 60px;
+    height: 60px;
+}
+
+h1{ 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 30px;
+    margin-top: 35px;
+}
+
+p{ text-align: center;
+    
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size:18px;
+ font-family: sans-serif;
+ color: white;
+}
+
+    
+    li,a{
+        color: white;
+        text-decoration: none;
+    }
+
+
+.rodape{
+    justify-content: center;
+    background-color: #000000;
+    box-shadow: 0px 0px 10px rgb(155, 155, 155);
+    height: 120px;
+    
+}
+#Git {
+    color:white;
+    font-family: sans-serif;
+    padding-top: 30px;  
+    margin-left:20px;
+    margin-right: 1100px;
+    font-size: 15px;  
+    
+}
+
+#like {
+    color:#ffffff;
+   border-radius:inherit;
+     font-family: sans-serif;
+    padding-top: 10px;  
+    margin-left:20px;
+    margin-right: 1100px;
+    font-size: 15px;
+  
+}  
+
+#copy{ font-size: 12px;
+    text-align: center;
+padding-left: 20px;
+    color:white}
